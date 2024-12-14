@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+body{
+    justify-items: center; 
+    background-color: #70a9a1;
+}
+
+.main{
+    margin: 15vmin;
+    min-width: 50vh;
+    min-height: 70vh;
+    background-color: #1f363d;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2px;
+    color: #cfe0c3;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+h2{
+    margin-top: 10px;
+    margin: 40px;
+}
+input{
+    padding-left: 1rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.mainTaskin{
+    min-height: 1.5rem;
+    min-width: 5rem;
+
+}
+#add-btn{
+    margin: 1.5rem;
+
+    padding: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    
+}
+
+.Deletebtn{
+    margin: 1.5rem;
+    padding: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+   
+    display: inline; /* Keep delete button inline */
+    margin-left: 10px;
+    
+
+    
+}
+#add-btn:hover {
+    background-color: #40798c;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+}
+.Deletebtn:hover{
+    color: #ffffff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.list{
+align-content: start;
+justify-items: start;
+padding-left: 30px;
+font-size: 4vmin;
+}
+
+.check{
+    padding: 20px;
+    size: 2rem;
+}
+.contnier{
+    padding: 20px;
+    float: left;
+    
+    overflow: hidden;
+    text-align: left;
+}
+
+#Textid{
+    font-size: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+.contnier label {
+    display: inline; /* Keep label inline */
+    text-align: left;
+}
